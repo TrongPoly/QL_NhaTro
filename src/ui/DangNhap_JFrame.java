@@ -136,7 +136,6 @@ public class DangNhap_JFrame extends javax.swing.JFrame {
     private void txtKetThucMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_txtKetThucMouseClicked
         System.exit(0);
     }//GEN-LAST:event_txtKetThucMouseClicked
-    //llllllllllllllllllllllllll
     private void txtUserNameFocusGained(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_txtUserNameFocusGained
         lblUserName.setVisible(false);
     }//GEN-LAST:event_txtUserNameFocusGained
