@@ -60,10 +60,12 @@ public class DangNhap_JFrame extends javax.swing.JFrame {
         jPanel2.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 30, -1, -1));
 
         lblPassworld.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        lblPassworld.setForeground(new java.awt.Color(153, 153, 153));
         lblPassworld.setText("Passworld");
         jPanel2.add(lblPassworld, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 140, -1, 30));
 
         lblUserName.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        lblUserName.setForeground(new java.awt.Color(153, 153, 153));
         lblUserName.setText("User name");
         jPanel2.add(lblUserName, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 70, -1, 30));
 
