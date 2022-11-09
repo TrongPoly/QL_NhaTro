@@ -156,6 +156,7 @@ public class DangNhap_JFrame extends javax.swing.JFrame {
         if(String.valueOf(txtPassworld.getPassword()).equals("")){
             lblPassworld.setVisible(true);
         }
+    // im right here!!
     }//GEN-LAST:event_txtPassworldFocusLost
 
     /**
