@@ -56,7 +56,7 @@ public class DangNhap_JFrame extends javax.swing.JFrame {
 
         jLabel3.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         jLabel3.setForeground(new java.awt.Color(0, 0, 255));
-        jLabel3.setText("ĐĂNG NHẬP");
+        jLabel3.setText("ĐĂ NHẬ");
         jPanel2.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 30, -1, -1));
 
         lblPassworld.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
@@ -93,7 +93,6 @@ public class DangNhap_JFrame extends javax.swing.JFrame {
         });
         jPanel2.add(txtPassworld, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 140, 221, 30));
 
-        jLabel6.setForeground(new java.awt.Color(0, 0, 0));
         jLabel6.setText("Quên mật khẩu?");
         jLabel6.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jPanel2.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 260, -1, -1));
