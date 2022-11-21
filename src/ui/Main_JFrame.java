@@ -28,18 +28,19 @@ public class Main_JFrame extends javax.swing.JFrame {
 
         jPanel1 = new javax.swing.JPanel();
         jPanel2 = new javax.swing.JPanel();
-        jLabel1 = new javax.swing.JLabel();
-        jLabel2 = new javax.swing.JLabel();
+        lblDangXuat = new javax.swing.JLabel();
+        lblLogo = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
         jSeparator1 = new javax.swing.JSeparator();
-        jLabel4 = new javax.swing.JLabel();
-        jLabel5 = new javax.swing.JLabel();
-        jLabel6 = new javax.swing.JLabel();
-        jLabel7 = new javax.swing.JLabel();
-        jLabel8 = new javax.swing.JLabel();
-        jLabel9 = new javax.swing.JLabel();
-        jLabel10 = new javax.swing.JLabel();
+        lblNhaTro = new javax.swing.JLabel();
+        lblDichVu = new javax.swing.JLabel();
+        lblHoaDon = new javax.swing.JLabel();
+        lblDoiMK = new javax.swing.JLabel();
+        lblNhanVien = new javax.swing.JLabel();
+        lblDoanhThu = new javax.swing.JLabel();
+        lblKhachHang = new javax.swing.JLabel();
         jSeparator2 = new javax.swing.JSeparator();
+        lblPhong = new javax.swing.JLabel();
         jPanel4 = new javax.swing.JPanel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
@@ -49,67 +50,82 @@ public class Main_JFrame extends javax.swing.JFrame {
         jPanel2.setBackground(new java.awt.Color(42, 63, 84));
         jPanel2.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel1.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icon/logout.png"))); // NOI18N
-        jLabel1.setText("  Đăng xuất");
-        jPanel2.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 510, -1, -1));
+        lblDangXuat.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        lblDangXuat.setForeground(new java.awt.Color(255, 255, 255));
+        lblDangXuat.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        lblDangXuat.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icon/logout.png"))); // NOI18N
+        lblDangXuat.setText("  Đăng xuất");
+        jPanel2.add(lblDangXuat, new org.netbeans.lib.awtextra.AbsoluteConstraints(-1, 510, 170, -1));
 
-        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icon/logo.jpg"))); // NOI18N
-        jPanel2.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 0, 150, 80));
+        lblLogo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icon/logo.jpg"))); // NOI18N
+        jPanel2.add(lblLogo, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 150, 60));
 
         jLabel3.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jLabel3.setForeground(new java.awt.Color(255, 255, 255));
         jLabel3.setText("Xin chào, Admin ");
-        jPanel2.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 100, -1, -1));
+        jPanel2.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 80, -1, -1));
 
         jSeparator1.setForeground(new java.awt.Color(255, 255, 255));
-        jPanel2.add(jSeparator1, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 130, 110, 10));
+        jPanel2.add(jSeparator1, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 100, 110, 10));
 
-        jLabel4.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        jLabel4.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icon/home.png"))); // NOI18N
-        jLabel4.setText("  Phòng");
-        jPanel2.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 150, -1, -1));
+        lblNhaTro.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        lblNhaTro.setForeground(new java.awt.Color(255, 255, 255));
+        lblNhaTro.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        lblNhaTro.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icon/motel.png"))); // NOI18N
+        lblNhaTro.setText("  Nhà trọ");
+        jPanel2.add(lblNhaTro, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 110, 170, -1));
 
-        jLabel5.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        jLabel5.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icon/welfare.png"))); // NOI18N
-        jLabel5.setText("  Dịch vụ");
-        jPanel2.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 200, -1, -1));
+        lblDichVu.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        lblDichVu.setForeground(new java.awt.Color(255, 255, 255));
+        lblDichVu.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        lblDichVu.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icon/welfare.png"))); // NOI18N
+        lblDichVu.setText("  Dịch vụ");
+        jPanel2.add(lblDichVu, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 200, 170, -1));
 
-        jLabel6.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        jLabel6.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icon/bill.png"))); // NOI18N
-        jLabel6.setText(" Tính tiền");
-        jPanel2.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 400, -1, -1));
+        lblHoaDon.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        lblHoaDon.setForeground(new java.awt.Color(255, 255, 255));
+        lblHoaDon.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        lblHoaDon.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icon/bill.png"))); // NOI18N
+        lblHoaDon.setText("  Hóa đơn ");
+        jPanel2.add(lblHoaDon, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 340, 170, -1));
 
-        jLabel7.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        jLabel7.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icon/reset-password.png"))); // NOI18N
-        jLabel7.setText(" Đổi mật khẩu");
-        jPanel2.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 460, -1, -1));
+        lblDoiMK.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        lblDoiMK.setForeground(new java.awt.Color(255, 255, 255));
+        lblDoiMK.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        lblDoiMK.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icon/reset-password.png"))); // NOI18N
+        lblDoiMK.setText(" Đổi mật khẩu");
+        jPanel2.add(lblDoiMK, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 460, 170, -1));
 
-        jLabel8.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        jLabel8.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icon/group.png"))); // NOI18N
-        jLabel8.setText("  Nhân viên");
-        jPanel2.add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 250, -1, -1));
+        lblNhanVien.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        lblNhanVien.setForeground(new java.awt.Color(255, 255, 255));
+        lblNhanVien.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        lblNhanVien.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icon/group.png"))); // NOI18N
+        lblNhanVien.setText("  Nhân viên");
+        jPanel2.add(lblNhanVien, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 250, 170, -1));
 
-        jLabel9.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        jLabel9.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icon/shower.png"))); // NOI18N
-        jLabel9.setText(" Chỉ số nước");
-        jPanel2.add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 300, -1, -1));
+        lblDoanhThu.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        lblDoanhThu.setForeground(new java.awt.Color(255, 255, 255));
+        lblDoanhThu.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        lblDoanhThu.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icon/doanhThu.png"))); // NOI18N
+        lblDoanhThu.setText("  Doanh thu");
+        jPanel2.add(lblDoanhThu, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 390, 170, -1));
 
-        jLabel10.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        jLabel10.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icon/thunder.png"))); // NOI18N
-        jLabel10.setText(" Chỉ số điện");
-        jPanel2.add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 350, -1, -1));
+        lblKhachHang.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        lblKhachHang.setForeground(new java.awt.Color(255, 255, 255));
+        lblKhachHang.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        lblKhachHang.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icon/KhachHang.png"))); // NOI18N
+        lblKhachHang.setText("  Khách hàng");
+        jPanel2.add(lblKhachHang, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 290, 170, -1));
 
         jSeparator2.setForeground(new java.awt.Color(0, 102, 204));
         jPanel2.add(jSeparator2, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 440, 110, 10));
+
+        lblPhong.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        lblPhong.setForeground(new java.awt.Color(255, 255, 255));
+        lblPhong.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        lblPhong.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icon/home.png"))); // NOI18N
+        lblPhong.setText("  Phòng");
+        jPanel2.add(lblPhong, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 150, 170, -1));
 
         jPanel1.add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 170, 550));
 
@@ -179,20 +195,21 @@ public class Main_JFrame extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JLabel jLabel1;
-    private javax.swing.JLabel jLabel10;
-    private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
-    private javax.swing.JLabel jLabel4;
-    private javax.swing.JLabel jLabel5;
-    private javax.swing.JLabel jLabel6;
-    private javax.swing.JLabel jLabel7;
-    private javax.swing.JLabel jLabel8;
-    private javax.swing.JLabel jLabel9;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JPanel jPanel4;
     private javax.swing.JSeparator jSeparator1;
     private javax.swing.JSeparator jSeparator2;
+    private javax.swing.JLabel lblDangXuat;
+    private javax.swing.JLabel lblDichVu;
+    private javax.swing.JLabel lblDoanhThu;
+    private javax.swing.JLabel lblDoiMK;
+    private javax.swing.JLabel lblHoaDon;
+    private javax.swing.JLabel lblKhachHang;
+    private javax.swing.JLabel lblLogo;
+    private javax.swing.JLabel lblNhaTro;
+    private javax.swing.JLabel lblNhanVien;
+    private javax.swing.JLabel lblPhong;
     // End of variables declaration//GEN-END:variables
 }
